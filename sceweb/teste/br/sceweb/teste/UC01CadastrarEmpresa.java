@@ -16,6 +16,10 @@ public class UC01CadastrarEmpresa {
 	public static EmpresaDAO empresaDAO;
 	
 	
+	/**
+	 * 
+	 * @throws Exception - excessão de tratamento de insert 
+	 */
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		empresa = new Empresa();
